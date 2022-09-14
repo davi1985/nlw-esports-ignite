@@ -1,7 +1,3 @@
-import { App } from "./app";
+import { Server } from "./config/server";
 
-const app = new App().express;
-
-const log = () => console.log("Server is running");
-
-app.listen(3333, log);
+Server.init();
