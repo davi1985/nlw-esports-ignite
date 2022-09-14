@@ -21,8 +21,6 @@
 
 NLW ESports
 
-## :sparkles: Features
-
 ## :rocket: Technologies
 
 The following tools were used in this project:
