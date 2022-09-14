@@ -2,7 +2,12 @@ import express from "express";
 import * as core from "express-serve-static-core";
 import { routes } from "./routes";
 
-export class App {
+interface AppProps {
+  express: core.Express;
+  isDev: boolean;
+}
+
+export class App implements AppProps {
   express: core.Express;
   isDev: boolean;
 
